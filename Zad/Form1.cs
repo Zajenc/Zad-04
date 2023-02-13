@@ -31,17 +31,25 @@ namespace Zad
         {
 
         }
-
+        ///*******************
+        /// <summary>
+        /// Zdarzenie po wywołaniu wyswietla wprowadzone przez uzytkownika dane i wygenerowane przez niego haslo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        /// *************************
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Dane pracownika: "+textBox2.Text+" "+ textBox3.Text+" "+comboBox1.Text+" Hasło: "+haslo);
           
         }
+        ///*************************
         /// <summary>
         /// Po wywołaniu zdarzenie genereuje haslo według preferencji uzytkownika a następnie wyświetla je na ekranie
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        /// ************************
         private void button1_Click(object sender, EventArgs e)
         {
             haslo = "";
